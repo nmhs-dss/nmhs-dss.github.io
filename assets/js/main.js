@@ -14,6 +14,45 @@
 		xsmall:	'(max-width: 480px)'
 	});
 
+/*function to show/hide the maps */
+	$(document).ready(function(){
+		$('#param1').on("click", function(){
+			$(".params").hide();
+			$('#map1').show();
+		});
+
+		$('#param2').on("click", function(){
+			$(".params").hide();
+			$('#map2').show();
+		});
+
+		$('#param3').on("click", function(){
+			$(".params").hide();
+			$('#map3').show();
+		});
+
+		$('#param4').on("click", function(){
+			$(".params").hide();
+			$('#map4').show();
+		});
+
+		$('#param5').on("click", function(){
+			$(".params").hide();
+			$('#map5').show();
+		});
+
+		$('#param6').on("click", function(){
+			$(".params").hide();
+			$('#map6').show();
+		});
+
+		$('#param7').on("click", function(){
+			$(".params").hide();
+			$('#map7').show();
+		});
+	 });
+
+
 	$(function() {
 
 		var	$window = $(window),
