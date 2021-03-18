@@ -2294,6 +2294,7 @@
 /* Image */
 	.params {
 		width: 480px;
+		text-align: center;
 	}
 	.image {
 		border-radius: 4px;
@@ -2596,16 +2597,19 @@
 
 		header.major h2 {
 			font-size: 3em;
+			text-align: center;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
 			margin: 0 0 0.8em;
+			text-align: center;
 		}
 
 		header.major p {
 			font-size: 1.7em;
 			margin-bottom: 0;
+			text-align: center;
 		}
 
 	@media screen and (max-width: 1280px) {
