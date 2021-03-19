@@ -14,7 +14,7 @@
 		xsmall:	'(max-width: 480px)'
 	});
 
-/*function to show/hide the maps */
+/* Kanish - function to show/hide the maps */
 	$(document).ready(function(){
 		$('#param1').on("click", function(){
 			$(".params").hide();
@@ -54,6 +54,16 @@
 		$('#param8').on("click", function(){
 			$(".params").hide();
 			$('#map8').show();
+		});
+
+		$('#param9').on("click", function(){
+			$(".params").hide();
+			$('#map9').show();
+		});
+
+		$('#param10').on("click", function(){
+			$(".params").hide();
+			$('#map10').show();
 		});
 	 });
 
@@ -110,7 +120,6 @@
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#navPanel')
 						.css('transition', 'none');
-
 
 	});
 

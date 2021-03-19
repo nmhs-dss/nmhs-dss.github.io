@@ -2956,6 +2956,8 @@
 
 			.navPanelToggle {
 				display: block;
+				width: 20%; /* Kanish */
+				height: 10%; /* Kanish */
 			}
 
 		}
