@@ -437,7 +437,7 @@
 		margin-left: 83.33333%;
 	}
 
-	.\-9u {
+	.\-9u { /* Kanish - added for sub-pages */
 		/* margin-left: 75%; */
 		width: 75%;
 		float: left;
@@ -463,7 +463,7 @@
 		margin-left: 33.33333%;
 	}
 
-	.\-3u {
+	.\-3u { /* Kanish - added for sub-pages */
 		/* margin-left: 25%; */
 		width: 25%;
 		float: left;
@@ -1915,7 +1915,7 @@
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 			color: #484848 !important;
-			width: 100%;
+			width: 100%; /* Kanish - added for sub-pages */
 		}
 
 			input[type="submit"].alt:hover,
@@ -1993,7 +1993,7 @@
 
 		.feature-grid .feature {
 			display: inline-block;
-			/* float: left; */
+			/* float: left; */ /* Kanish - warnings */
 			margin-bottom: 3em;
 			width: 50%;
 		}
@@ -2293,8 +2293,8 @@
 		}
 
 /* Image */
-	.params {
-		width: 480px;
+	.params { /* Kanish - added for maps */
+		width: 400px;
 		text-align: center;
 	}
 	.image {
@@ -2560,8 +2560,8 @@
 		}
 
 /* Section/Article */
-
-	section.special, article.special, header.special {
+	/* Kanish - add for header */
+	section.special, article.special, header.special { 
 		text-align: center;
 	}
 
@@ -2598,19 +2598,16 @@
 
 		header.major h2 {
 			font-size: 3em;
-			text-align: center;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
 			margin: 0 0 0.8em;
-			text-align: center;
 		}
 
 		header.major p {
 			font-size: 1.7em;
 			margin-bottom: 0;
-			text-align: center;
 		}
 
 	@media screen and (max-width: 1280px) {
@@ -2733,6 +2730,7 @@
 
 	.wrapper {
 		padding: 2em 0 2em 0;
+		/* padding: 6em 0 4em 0; */ /* Kanish */
 	}
 
 		.wrapper > .inner {
@@ -3045,7 +3043,7 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			/* vertical-align: middle; */
+			/* vertical-align: middle; */ /* Kanish - warnings */
 			width: 5em;
 		}
 
@@ -3101,7 +3099,6 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		/* background-image: url("images/overlay.png"), url("../../images/banner.jpg"); */
 		background-image: url("../../images/banner.jpg");
 		background-position: center top;
 		background-size: cover;
@@ -3109,11 +3106,11 @@
 		text-align: center;
 	}
 
+	/* Kanish - add banner variation */
 	#banner.oth {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		/* background-image: url("../../images/banner.jpg"); */
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3133,7 +3130,7 @@
 		}
 
 		#banner p {
-			/* color: #aaa; */
+			/* color: #aaa; */ /* Kanish */
 			color: #ffffff;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
@@ -3203,19 +3200,17 @@
 		}
 
 /* Footer */
-
+	
+	/* Kanish - change footer variation */
 	#footer {
 		background-attachment: fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		/* background-image:  url("../../images/banner.jpg"); */
 		background-position: center center;
 		background-size: cover;
 		padding: 8em 0 6em 0;
-		/* background: #f6f6f6;
-		color: #aaa; */
 		text-align: center;
 	}
-	
+		/* Kanish - original footer variation */
 		#footer.normal {
 			padding: 8em 0 6em 0;
 			background: #f6f6f6;
@@ -3252,8 +3247,8 @@
 			margin: 2em 0;
 			padding: 0;
 			text-align: center;
-			background: #f6f6f6;
-			color: #666;
+			background: #f6f6f6; /* Kanish - add */
+			color: #666; /* Kanish - add */
 		}
 
 			#footer .copyright li {
