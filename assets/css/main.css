@@ -2561,7 +2561,7 @@
 
 /* Section/Article */
 
-	section.special, article.special {
+	section.special, article.special, header.special {
 		text-align: center;
 	}
 

@@ -50,6 +50,11 @@
 			$(".params").hide();
 			$('#map7').show();
 		});
+
+		$('#param8').on("click", function(){
+			$(".params").hide();
+			$('#map8').show();
+		});
 	 });
 
 
